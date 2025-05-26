@@ -47,9 +47,14 @@ return require('packer').startup(function(use)
   -- or                            , branch = '0.1.x',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+
+  -- Colour Schemes
   use 'folke/tokyonight.nvim'
   require("tokyonight").setup()
   use 'savq/melange-nvim'
+  use 'rebelot/kanagawa.nvim'
+  use 'shaunsingh/nord.nvim'
+
 
   if packer_bootstrap then
     require('packer').sync()
