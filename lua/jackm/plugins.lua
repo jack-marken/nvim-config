@@ -17,6 +17,7 @@ return require('packer').startup(function(use)
   use 'tpope/vim-fugitive'
   use 'tpope/vim-commentary'
   use 'nvim-tree/nvim-tree.lua'
+  use 'nvim-tree/nvim-web-devicons'
   -- use 'preservim/nerdtree'
   local function my_on_attach(bufnr)
     local api = require "nvim-tree.api"
