@@ -48,6 +48,9 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- Tree Sitter
+  use 'nvim-treesitter/nvim-treesitter'
+
   -- Colour Schemes
   use 'folke/tokyonight.nvim'
   require("tokyonight").setup()

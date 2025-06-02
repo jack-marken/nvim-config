@@ -19,7 +19,8 @@ keymap.set("n", "<leader>wL", "<C-w>L")
 keymap.set("n", "<leader>wq", "<C-w>q")
 
 -- Nvim Tree
-vim.keymap.set('n', '<leader>ls', ":NvimTreeOpen<CR>")
+vim.keymap.set('n', '<leader>ls', ":NvimTreeOpen<CR>") -- List
+vim.keymap.set('n', '<leader>lf', ":NvimTreeFindFile<CR>") -- List find
 
 -- NERDTree
 -- vim.keymap.set('n', '<leader>ls', ":NERDTreeFocus<CR>")
@@ -27,6 +28,6 @@ vim.keymap.set('n', '<leader>ls', ":NvimTreeOpen<CR>")
 
 -- Telescope
 local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader>lf', builtin.find_files)
-vim.keymap.set('n', '<leader>lg', builtin.git_files)
-vim.keymap.set('n', '<leader>gg', builtin.live_grep)
+vim.keymap.set('n', '<leader>so', builtin.find_files) -- '[s]earch [o]pen'
+vim.keymap.set('n', '<leader>sg', builtin.git_files) -- '[s]earch [g]it'
+vim.keymap.set('n', '<leader>sw', builtin.live_grep) -- '[s]earch [w]ord'
