@@ -54,6 +54,7 @@ return require('packer').startup(function(use)
   -- Colour Schemes
   use 'folke/tokyonight.nvim'
   require("tokyonight").setup()
+  use 'morhetz/gruvbox'
   use 'savq/melange-nvim'
   use 'rebelot/kanagawa.nvim'
   use 'shaunsingh/nord.nvim'

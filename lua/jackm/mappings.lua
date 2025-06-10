@@ -8,6 +8,8 @@ keymap.set("n", "<leader>sl", "<C-w>v")
 keymap.set("n", "<leader>sj", "<C-w>s")
 
 keymap.set("n", "<leader>w=", "<C-w>=")
+keymap.set("n", "<leader>w-", "<C-w>_")
+keymap.set("n", "<leader>w\\", "<C-w>|")
 keymap.set("n", "<leader>wh", "<C-w>h")
 keymap.set("n", "<leader>wj", "<C-w>j")
 keymap.set("n", "<leader>wk", "<C-w>k")
@@ -28,6 +30,6 @@ vim.keymap.set('n', '<leader>lf', ":NvimTreeFindFile<CR>") -- List find
 
 -- Telescope
 local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader>so', builtin.find_files) -- '[s]earch [o]pen'
+vim.keymap.set('n', '<leader>sf', builtin.find_files) -- '[s]earch [f]ile'
 vim.keymap.set('n', '<leader>sg', builtin.git_files) -- '[s]earch [g]it'
 vim.keymap.set('n', '<leader>sw', builtin.live_grep) -- '[s]earch [w]ord'
