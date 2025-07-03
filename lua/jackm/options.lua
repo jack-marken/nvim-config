@@ -3,6 +3,7 @@
 vim.cmd[[colorscheme kanagawa-wave]]
 -- vim.cmd[[colorscheme kanagawa-dragon]]
 -- vim.cmd[[colorscheme nord]]
+
 vim.cmd[[let g:netrw_liststyle = 3]]
 vim.g.loaded_netrwPlugin = 1
 

@@ -16,9 +16,11 @@ return require('packer').startup(function(use)
   use 'airblade/vim-gitgutter'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-commentary'
+
+	-- Nvim Tree
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
-  -- use 'preservim/nerdtree'
+
   local function my_on_attach(bufnr)
     local api = require "nvim-tree.api"
 
@@ -50,6 +52,9 @@ return require('packer').startup(function(use)
 
   -- Tree Sitter
   use 'nvim-treesitter/nvim-treesitter'
+
+	-- Linting
+	use 'dense-analysis/ale'
 
   -- Colour Schemes
   use 'folke/tokyonight.nvim'
