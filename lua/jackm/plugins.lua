@@ -34,7 +34,6 @@ return require('packer').startup(function(use)
 	use 'dense-analysis/ale'
 
   -- Colour Schemes
-  use 'folke/tokyonight.nvim'
   use 'morhetz/gruvbox'
   use 'savq/melange-nvim'
   use 'rebelot/kanagawa.nvim'

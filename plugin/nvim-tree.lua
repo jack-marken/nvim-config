@@ -13,6 +13,7 @@ local function my_on_attach(bufnr)
 	vim.keymap.set("n", "s",     api.node.open.horizontal,              opts("Horizontal Split"))
 	vim.keymap.set("n", "v",     api.node.open.vertical,                  opts("Vertical Split"))
 end
+
 require("nvim-tree").setup({
 	actions = {
 		open_file = {
