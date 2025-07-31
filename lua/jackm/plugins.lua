@@ -21,29 +21,6 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
 
-  local function my_on_attach(bufnr)
-    local api = require "nvim-tree.api"
-
-    local function opts(desc)
-      return { desc = "nvim-tree: " .. desc, buffer = bufnr, noremap = true, silent = true, nowait = true }
-    end
-
-    -- default mappings
-    api.config.mappings.default_on_attach(bufnr)
-
-    -- custom mappings
-    vim.keymap.set("n", "?",     api.tree.toggle_help,                  opts("Help"))
-    vim.keymap.set("n", "s",     api.node.open.horizontal,              opts("Horizontal Split"))
-    vim.keymap.set("n", "v",     api.node.open.vertical,                  opts("Vertical Split"))
-  end
-  require("nvim-tree").setup({
-    actions = {
-      open_file = {
-        quit_on_open = true,
-      },
-    },
-    on_attach = my_on_attach,
-  })
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.8',
   -- or                            , branch = '0.1.x',
@@ -58,7 +35,6 @@ return require('packer').startup(function(use)
 
   -- Colour Schemes
   use 'folke/tokyonight.nvim'
-  require("tokyonight").setup()
   use 'morhetz/gruvbox'
   use 'savq/melange-nvim'
   use 'rebelot/kanagawa.nvim'
