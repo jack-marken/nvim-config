@@ -30,8 +30,11 @@ return require('packer').startup(function(use)
   -- Tree Sitter
   use 'nvim-treesitter/nvim-treesitter'
 
-	-- Linting
-	use 'dense-analysis/ale'
+  -- Linting
+  use 'mason-org/mason.nvim'
+  use 'mason-org/mason-lspconfig.nvim'
+  -- use 'mason-org/mason-registry'
+  -- use 'dense-analysis/ale'
 
   -- Colour Schemes
   use 'morhetz/gruvbox'
