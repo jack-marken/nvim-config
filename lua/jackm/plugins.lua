@@ -33,7 +33,7 @@ return require('packer').startup(function(use)
   -- Linting
   use 'mason-org/mason.nvim'
   use 'mason-org/mason-lspconfig.nvim'
-  use 'mason-org/mason-registry'
+  -- use 'mason-org/mason-registry'
   -- use 'dense-analysis/ale'
 
   -- Colour Schemes
