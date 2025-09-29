@@ -31,7 +31,7 @@ return require('packer').startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'
 
 	-- Linting
-	use 'dense-analysis/ale'
+	-- use 'dense-analysis/ale'
 
   -- Colour Schemes
   use 'morhetz/gruvbox'
