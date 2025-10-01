@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
   use 'airblade/vim-gitgutter'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-commentary'
+	use 'JoosepAlviste/nvim-ts-context-commentstring'
 
 	-- Nvim Tree
   use 'nvim-tree/nvim-tree.lua'
