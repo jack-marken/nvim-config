@@ -15,6 +15,8 @@ return require('packer').startup(function(use)
   use('wbthomason/packer.nvim')
   use('airblade/vim-gitgutter')
   use('tpope/vim-fugitive')
+
+  -- Comments
   use('tpope/vim-commentary')
   use('JoosepAlviste/nvim-ts-context-commentstring')
 
@@ -25,7 +27,6 @@ return require('packer').startup(function(use)
   use({
     'nvim-telescope/telescope.nvim',
     tag = '0.1.8',
-    -- or                            , branch = '0.1.x',
     requires = { { 'nvim-lua/plenary.nvim' } },
   })
 
@@ -46,9 +47,7 @@ return require('packer').startup(function(use)
 
   -- Colour Schemes
   use('sainnhe/gruvbox-material')
-  use('savq/melange-nvim')
   use('rebelot/kanagawa.nvim')
-  use('shaunsingh/nord.nvim')
 
   if packer_bootstrap then
     require('packer').sync()
