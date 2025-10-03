@@ -11,7 +11,7 @@ mason_lspconfig.setup({
     'cssls',
     'eslint',
     'tailwindcss',
-    'pyright',
+    'ruff',
     'lua_ls',
   },
   automatic_installation = true,
@@ -22,7 +22,6 @@ mason_tool_installer.setup({
     'stylua',
     'isort',
     'black',
-    'pylint',
     'eslint_d',
   },
 })
