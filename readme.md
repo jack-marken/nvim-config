@@ -4,7 +4,7 @@
 
 - Go to [https://github.com/neovim/neovim/releases/]
 - Copy the link of the latest stable release
-    - Example: [https://github.com/neovim/neovim/releases/download/v0.11.4/nvim-linux-x86_64.appimage]
+  - Example: [https://github.com/neovim/neovim/releases/download/v0.11.4/nvim-linux-x86_64.appimage]
 
 ```bash
 curl -LO [link]
@@ -37,8 +37,8 @@ Quit Neovim with `:wq`.
 
 All configurations should work upon running `nvim` again.
 
-
 ## Other installs
+
 ### Install 'c' compilers for TreeSitter
 
 ```bash
@@ -49,4 +49,10 @@ sudo apt install build-essential
 
 ```bash
 sudo apt install ripgrep
+```
+
+### NPM development
+
+```bash
+npm install -g @vue/language-server
 ```
