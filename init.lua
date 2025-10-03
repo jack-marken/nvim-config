@@ -1,1 +1,1 @@
-require("jackm.init")
+require('jackm.init')

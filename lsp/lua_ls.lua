@@ -1,12 +1,12 @@
 return {
-	settings = {
-		Lua = {
-			diagnostics = {
-				globals = { "vim" },
-			},
-			completion = {
-				callSnippet = "Replace",
-			},
-		},
-	},
+  settings = {
+    Lua = {
+      diagnostics = {
+        globals = { 'vim' },
+      },
+      completion = {
+        callSnippet = 'Replace',
+      },
+    },
+  },
 }

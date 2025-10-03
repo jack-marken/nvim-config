@@ -1,10 +1,10 @@
 -- vim.cmd[[colorscheme tokyonight-night]]
 -- vim.cmd[[colorscheme melange]]
-vim.cmd[[colorscheme kanagawa-wave]]
+vim.cmd([[colorscheme kanagawa-wave]])
 -- vim.cmd[[colorscheme kanagawa-dragon]]
 -- vim.cmd[[colorscheme nord]]
 
-vim.cmd[[let g:netrw_liststyle = 3]]
+vim.cmd([[let g:netrw_liststyle = 3]])
 vim.g.loaded_netrwPlugin = 1
 
 local opt = vim.opt
@@ -17,7 +17,7 @@ opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = false
 -- opt.expandtab = true
-opt.listchars = { tab = "| ", trail = "-", nbsp = "␣" }
+opt.listchars = { tab = '| ', trail = '-', nbsp = '␣' }
 opt.autoindent = true
 
 -- TEMP --
@@ -38,5 +38,5 @@ opt.smartcase = true
 opt.cursorline = true
 
 opt.termguicolors = true
-opt.background = "dark"
-opt.signcolumn = "yes"
+opt.background = 'dark'
+opt.signcolumn = 'yes'

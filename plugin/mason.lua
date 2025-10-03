@@ -1,29 +1,29 @@
 -- Mason setup
-local mason = require("mason")
-local mason_lspconfig = require("mason-lspconfig")
-local mason_tool_installer = require("mason-tool-installer")
+local mason = require('mason')
+local mason_lspconfig = require('mason-lspconfig')
+local mason_tool_installer = require('mason-tool-installer')
 
 mason.setup()
 mason_lspconfig.setup({
-  dependencies = { "neovim/nvim-lspconfig" },
+  dependencies = { 'neovim/nvim-lspconfig' },
   ensure_installed = {
-    "html",
-    "cssls",
-    "eslint",
-    "tailwindcss",
-    "pyright",
-    "lua_ls",
+    'html',
+    'cssls',
+    'eslint',
+    'tailwindcss',
+    'pyright',
+    'lua_ls',
   },
   automatic_installation = true,
 })
 mason_tool_installer.setup({
   ensure_installed = {
-    "prettier",
-    "stylua",
-    "isort",
-    "black",
-    "pylint",
-    "eslint_d",
+    'prettier',
+    'stylua',
+    'isort',
+    'black',
+    'pylint',
+    'eslint_d',
   },
 })
 

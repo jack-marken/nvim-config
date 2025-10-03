@@ -1,28 +1,28 @@
-vim.g.mapleader = " "
+vim.g.mapleader = ' '
 
 local keymap = vim.keymap
 
-keymap.set("n", "<leader>H", ":nohl<CR>")
+keymap.set('n', '<leader>H', ':nohl<CR>')
 
-keymap.set("n", "<leader>sl", "<C-w>v")
-keymap.set("n", "<leader>sj", "<C-w>s")
+keymap.set('n', '<leader>sl', '<C-w>v')
+keymap.set('n', '<leader>sj', '<C-w>s')
 
-keymap.set("n", "<leader>w=", "<C-w>=")
-keymap.set("n", "<leader>w-", "<C-w>_")
-keymap.set("n", "<leader>w\\", "<C-w>|")
-keymap.set("n", "<leader>wh", "<C-w>h")
-keymap.set("n", "<leader>wj", "<C-w>j")
-keymap.set("n", "<leader>wk", "<C-w>k")
-keymap.set("n", "<leader>wl", "<C-w>l")
-keymap.set("n", "<leader>wH", "<C-w>H")
-keymap.set("n", "<leader>wJ", "<C-w>J")
-keymap.set("n", "<leader>wK", "<C-w>K")
-keymap.set("n", "<leader>wL", "<C-w>L")
-keymap.set("n", "<leader>wq", "<C-w>q")
+keymap.set('n', '<leader>w=', '<C-w>=')
+keymap.set('n', '<leader>w-', '<C-w>_')
+keymap.set('n', '<leader>w\\', '<C-w>|')
+keymap.set('n', '<leader>wh', '<C-w>h')
+keymap.set('n', '<leader>wj', '<C-w>j')
+keymap.set('n', '<leader>wk', '<C-w>k')
+keymap.set('n', '<leader>wl', '<C-w>l')
+keymap.set('n', '<leader>wH', '<C-w>H')
+keymap.set('n', '<leader>wJ', '<C-w>J')
+keymap.set('n', '<leader>wK', '<C-w>K')
+keymap.set('n', '<leader>wL', '<C-w>L')
+keymap.set('n', '<leader>wq', '<C-w>q')
 
 -- Nvim Tree
-vim.keymap.set('n', '<leader>ls', ":NvimTreeOpen<CR>") -- List
-vim.keymap.set('n', '<leader>lf', ":NvimTreeFindFile<CR>") -- List find
+vim.keymap.set('n', '<leader>ls', ':NvimTreeOpen<CR>') -- List
+vim.keymap.set('n', '<leader>lf', ':NvimTreeFindFile<CR>') -- List find
 
 -- NERDTree
 -- vim.keymap.set('n', '<leader>ls', ":NERDTreeFocus<CR>")
