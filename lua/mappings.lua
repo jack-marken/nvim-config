@@ -24,10 +24,6 @@ keymap.set('n', '<leader>wq', '<C-w>q')
 vim.keymap.set('n', '<leader>ls', ':NvimTreeOpen<CR>') -- List
 vim.keymap.set('n', '<leader>lf', ':NvimTreeFindFile<CR>') -- List find
 
--- NERDTree
--- vim.keymap.set('n', '<leader>ls', ":NERDTreeFocus<CR>")
--- vim.keymap.set('n', '<leader>nf', ":NERDTreeFind<CR>")
-
 -- Telescope
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>sf', builtin.find_files) -- '[s]earch [f]ile'

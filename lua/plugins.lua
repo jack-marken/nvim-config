@@ -45,7 +45,7 @@ return require('packer').startup(function(use)
   use('mfussenegger/nvim-lint')
 
   -- Colour Schemes
-  use('morhetz/gruvbox')
+  use('sainnhe/gruvbox-material')
   use('savq/melange-nvim')
   use('rebelot/kanagawa.nvim')
   use('shaunsingh/nord.nvim')

@@ -1,8 +1,5 @@
--- vim.cmd[[colorscheme tokyonight-night]]
--- vim.cmd[[colorscheme melange]]
-vim.cmd([[colorscheme kanagawa-wave]])
--- vim.cmd[[colorscheme kanagawa-dragon]]
--- vim.cmd[[colorscheme nord]]
+-- vim.cmd([[colorscheme kanagawa-wave]])
+vim.cmd([[colorscheme gruvbox]])
 
 vim.cmd([[let g:netrw_liststyle = 3]])
 vim.g.loaded_netrwPlugin = 1
