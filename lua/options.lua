@@ -1,5 +1,5 @@
 -- vim.cmd([[colorscheme kanagawa-wave]])
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme gruvbox-material]])
 
 vim.cmd([[let g:netrw_liststyle = 3]])
 vim.g.loaded_netrwPlugin = 1
@@ -31,9 +31,7 @@ opt.list = true
 -- search settings
 opt.ignorecase = true
 opt.smartcase = true
-
 opt.cursorline = true
-
 opt.termguicolors = true
 opt.background = 'dark'
 opt.signcolumn = 'yes'
