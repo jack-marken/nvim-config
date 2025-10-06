@@ -29,3 +29,8 @@ local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>sf', builtin.find_files) -- '[s]earch [f]ile'
 vim.keymap.set('n', '<leader>sg', builtin.git_files) -- '[s]earch [g]it'
 vim.keymap.set('n', '<leader>sw', builtin.live_grep) -- '[s]earch [w]ord'
+
+-- Conform.nvim
+vim.keymap.set('', '<leader>ff', function()
+  require('conform').format({ async = true, lsp_fallback = true })
+end)
